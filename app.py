@@ -12,7 +12,7 @@ class Item(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "Hello !"}
+    return {"message": "Hello !!"}
 
 
 @app.get('/favicon.ico', include_in_schema=False)
